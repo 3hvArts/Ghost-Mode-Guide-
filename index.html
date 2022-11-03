@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="img/Logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#GhostMode">GhostMode</a></li>
+          <li><a href="#kontolism">Basic PinPointing</a></li>
+          <li><a href="#Donate">Donation</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <h1>Welcome To <span>GMP</span><br>Guide</h1>
+      <p>KONTOLISM</p>
+    </div>
+  </div>
+</div>
+<!----------GhostMode---------->
+<div id="GhostMode">
+  <div class="container">
+    <div class="row">
+      <div class="about-col1">
+        <img src="img/GhostMode.png">
+      </div>
+      <div class="about-col2">
+        <h1 class="ghostmode">What is Ghost Mode?</h1>
+        <p class="what-is-gm">Ghost Mode is a game mode in Crossfire. This mode is the same as Search & Destroy mode, but the difference is that the Black List soldiers are wearing Ghost suits (that helps them become invisible when standing still), but can only use their melee weapons and have a big breath sound. Global Risk soldiers will still have all of their equipment but they must prevent Black List from successfully destroying a bomb site or simply wipe out the Black List team.</p>
+        
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('Ghost-Mode-Basic-Tactics')">Ghost Mode Basic Tactics</p>
+          <p class="tab-links" onclick="opentab('BL-Side')">BL Side</p>
+          <p class="tab-links" onclick="opentab('GR-Side')">GR Side</p>
+        </div>
+        <div class="tab-contents active-tab" id="Ghost-Mode-Basic-Tactics">
+          <ul>
+            <li><span>Basic Of Pinpointing</span><br>where is the breath?</li>
+            <li><span>Equalizer?</span><br>Best EQ For Hearing Breath</li>
+            <li><span>How to bunny hop?</span><br>Bunny HOP Manual</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="BL-Side">
+          <ul>
+            <li><span>Bunny HOP</span><br>Continue's Bunny HOP</li>
+            <li><span>Is hopping avoiding hearing breath?</span><br>Unfortunately NO, BL Hopping now can hear.</li>
+            <li><span>Breath Silencer / Footstep Reducer</span><br>Use this item to take advantage even they can hear your BunnyHOP</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="GR-Side">
+          <ul>
+            <li><span>What Weapon should i use?</span><br>You should always use silencer weapon. And kindly avoid spraying even you are using silencer weapon.</li>
+            <li><span>How to delete radio sound?</span><br>Just go to cf folder>rez>snd2>english/woman delete.</li>
+            <li><span>Ferro is GAY</span><br>Ferro is GAY</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------Kontolism---------->
+<div id="kontolism">
+  <div class="container">
+    <h1 class="kontolism">Basic Pinpointing</h1>
+    <div class="Kontolism-list">
+      <div>
+        <img src="img/Pinpoint.jpg" class="logo">
+        <h2>What is “Pinpointing”?</h2>
+        <p>Pinpointing is the term used for locating nearby ghost even though you can’t see them
+          "A player that can detect and kill ghosts within half a second after contact is called a Pinpointer, <span>Some players accuse pinpointers as HACKERS/CHEATERS/WALL HACKERS</span> because they can kill a ghost even though its stationary"</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <img src="img/Kontol.png" class="logo">
+        <h2>How does a pinpointer find a stationary/moving ghost?</h2>
+        <p>By centering the breath in their headphones, whenever they hear a breath, they tend to look at where they heard the breath (even though the breath is behind a wall, above them or under) and then they will look a bit to the left/right of the breath to further increase the accuracy of their pinpointing<span>-Some pinpointers are passive, they do not engage breath that they think are "Out of range" or they are after a specific nearby breath-
+        </span></p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <img src="img/Kontol.png" class="logo">
+        <h2>How does a pinpointer find a stationary/moving ghost?</h2>
+        <p>By centering the breath in their headphones, whenever they hear a breath, they tend to look at where they heard the breath (even though the breath is behind a wall, above them or under) and then they will look a bit to the left/right of the breath to further increase the accuracy of their pinpointing<span>-Some pinpointers are passive, they do not engage breath that they think are "Out of range" or they are after a specific nearby breath-
+        </span></p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------Software---------->
+<div id="Software">
+  <div class="container">
+    <h1>Software</h1>
+    <div class="software-list">
+      <div class="realtek">
+        <img src="img/realtek.png">
+        <div class="layer">
+          <h3>Realtek HD Audio</h3>
+          <p>What Is Realtek HD Audio Manager? Realtek HD Audio Manager (Realtek High Definition Audio Manager) is the application used to control sound play on Windows computers. It acts as a control panel for your audio adapters.</p>
+          <a href="https://www.realtek.com/en/component/zoo/category/pc-audio-codecs-high-definition-audio-codecs-software" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="eq-apo">
+        <img src="img/eq apo.png">
+        <div class="layer">
+          <h3>Equalizer APO</h3>
+          <p>Equalizer APO is a free, open-source audio equalizer for Microsoft Windows 7, 8, 8.1, and 10. Equalization parameters can be configured for multiple audio devices and applied to all Windows audio.</p>
+          <a href="http://www.mediafire.com/download/h8ajhovw7danivq/wizardinstallv5.exe" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">Learn More</a>
+  </div>
+</div>
+<!----------Donation---------->
+<div id="Donate">
+  <div class="container">
+    <div class="row">
+      <div class="Donate-left">
+        <h1 class="sub-title">Donate</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> donateme@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i> 1234567890</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/" traget="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://discord.gg/RBSkaQNBWw" target="_balnk"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://www.youtube.com/channel/UCuqAraK_Dr-iDjs6pnjpeQA/featured" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="img/Download Guide.pdf" download class="btn btn2">Soon</a>
+      </div>
+      <div class="copyright">
+        <p>3hv @ Copyright <i class="fa-solid fa-heart"></i> Special thanks to YvesGhzWong - Ferrocious - KONTOLISM Clan</p>
+      </div>
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+
+</script>
+  
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+
+</script>
+
+
+</body>
+</html>
